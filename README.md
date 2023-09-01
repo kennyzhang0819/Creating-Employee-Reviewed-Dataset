@@ -1,4 +1,7 @@
 # Data Discovery - Spring 2023: Creating Employee-Reviewed Dataset
+## Workflow
+![workflow](thumbnail/workflow.png)
+
 ## Glassdoor version
 Scrapes employee reviews on Glassdoor for a list of given company urls and stores reviews for each company in AWS S3. 
 Skips company urls that have been sraped before by keeping a list in a .txt file.
